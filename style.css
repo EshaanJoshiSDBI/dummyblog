@@ -17,3 +17,18 @@ article * {
 img.size-1, img.size-2, img.size-3, img.size-4 {width : 100%;}
 
 .in{margin-left:2em}
+
+h1{font: 2rem/1.2 'Roboto';
+    font-weight: bold;}
+
+h2{font:  1.5rem/1.2 'Roboto';
+    font-weight: bold;}
+
+time{font: 1rem/1.2 'Roboto';}
+
+h3{font:  1rem/1.2 'Roboto';
+    font-weight: bold;}
+
+p{font:  1rem/1.5 'Roboto';}
+
+a{box-shadow: inset 0 -0.25rem black;}
