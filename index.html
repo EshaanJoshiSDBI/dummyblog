@@ -1,9 +1,72 @@
+<!DOCTYPE html>
 <html>
 	<head>
+		<meta charset = 'UTF-8'>
+		<meta name = 'viewport' content="width = device-width, initial-scale = 1">
 		<title>AVISA</title>
+		<link rel = 'stylesheet' href = 'reset.css'>
+		<link rel = 'stylesheet' href = '-debug.css'>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
+		<meta name = 'description' content = 'SDBI AVISA blog'>
+		<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
+		<style>
+			time, h2,p:not(:last-child) {margin-bottom: 1.2rem;}
+		</style>
 	</head>
 	<body>
-		<p>Hello World!</p>
-		<p>Test Site</p>
+		<article id='corr_reg'>
+			<p>
+				<h1><a href = '#corr_reg'><b><em>Correlation</em> and Regression</b></a></h1>
+				<time datetime="29-04-2021">Apr. 29, 2021</time>
+				<h3><em>What</em> is Correlation?</h3>
+				<ul>
+					<li>It measures the relative strength of the linear relationship between two variables</li>
+					<li>It is unit-less</li>
+					<li>It ranges between -1 and 1</li>
+					<li>The closer to -1, the stronger the negative linear relationship</li>
+					<li>The closer to 1, the stringer the positive linear relationship</li>
+					<li>The closer to 0, the weaker any positive linear relationship</li>
+					<li>There are two ways to check correlation</li>
+					<ul>
+						<li class="in">Scatter plot</li>
+						<li class = 'in'>Correlation matrix</li>
+					</ul>
+				</ul>
+				</p>
+				<p>
+					<h3>What is <em>R-Squared</em></h3>
+					<ul>
+						<li>R-Squared is a statistical measure of how close the data are to the fitted regression line.</li>
+						<li>it is also known as the coefficient of determination, or the coefficient of multiple determination for multiple regression.</li>
+						<li>The definition of R-squared is fairly straight-forward, it is the percentage of the response variable variation that is explained by a Independent Variable.</li>
+						<li>R-squared is always between 0 and 100%</li>
+						<ul>
+							<li class='in'>Greater than or equal 70% indicate good model</li>
+						</ul>
+						<li>In general, the higher the R-Squared, the better the model fits your data.</li>
+					</ul>
+				</p>
+				<p>
+					<h3>What is <em>Simple Linear Regression</em></h3>
+					<ul>
+						<li>A simple linear regression model that <b>describes the relationship between two variables x and y</b> can be expressed by the following equation.</li>
+						<li><img src = 'image.png'></li>
+						<li>Assumption of Linear Regression</li>
+						<li class='in'>	Linearity: The relationship between X and the mean of Y is linear</li>
+						<li class = 'in'>Normality: For any fixed of X,Y is normally distributed.</li>
+						<li class = 'in'>Homoscedasticity (constant Variance): The variance of residual is the same for any value of X.</li>
+						<li class = 'in'>Model Error has to be Independently identically Normally Distributed: Observations are independent of each other.</li>
+					</ul>
+				</p>
+			<!--<img class = 'size-4' src = 'committee.jpg'>
+			<img class = 'size-3' src = 'committee.jpg'>
+			<img class = 'size-2' src = 'committee.jpg'>
+			<img class = 'size-1' src = 'committee.jpg'>-->
+		</article>
+		<!--<article>
+			<p class = 'debug'>Article2</p>
+		</article>-->
 	</body>
 </html>
