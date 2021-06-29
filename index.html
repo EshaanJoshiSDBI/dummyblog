@@ -11,14 +11,11 @@
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
 		<meta name = 'description' content = 'SDBI AVISA blog'>
 		<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
-		<style>
-			time, h2,p:not(:last-child) {margin-bottom: 1.2rem;}
-		</style>
 	</head>
 	<body>
-		<article id='corr_reg'>
+		<article id='art-1'>
+			<h1><a href = '#art-1'><b><em>Correlation and Regression</em></b></a></h1>
 			<p>
-				<h1><a href = '#corr_reg'><b><em>Correlation</em> and Regression</b></a></h1>
 				<time datetime="29-04-2021">Apr. 29, 2021</time>
 				<h3><em>What</em> is Correlation?</h3>
 				<ul>
@@ -48,6 +45,10 @@
 						<li>In general, the higher the R-Squared, the better the model fits your data.</li>
 					</ul>
 				</p>
+				<figure class = 'size-2'>
+					<img src = 'lr.png'>
+				</figure>
+				<figcaption>LR output in python</figcaption>
 				<p>
 					<h3>What is <em>Simple Linear Regression</em></h3>
 					<ul>
@@ -65,6 +66,35 @@
 			<img class = 'size-2' src = 'committee.jpg'>
 			<img class = 'size-1' src = 'committee.jpg'>-->
 		</article>
+		<article id='art-2'>
+			<h1><a href = '#art-2'>Indexes in <em>MySQL</em></a></h1>
+			<p>
+				<time datetime="15-04-2021">Apr. 15 2021</time>
+				<h3><em>What</em> are Indexes</h3>
+			</p>
+			<p>
+				It is a data structure associated with a table which enables us to access data quickly. It contains a collection of keys and pointers stored in B-Tree in the memory.
+				It accelerates queries that join tables and perform sorting and grouping. It can be used to enforce uniqueness of rows.
+			</p>
+			<h3>Types of Indexes</h3>
+			<p>
+				<ol>
+					<li>Clustered Index</li>
+					<ul>
+						<li class = 'in'>Sorts and stores the data rows in the table based on their key values</li>
+						<li class="in">In MySQL 1 <em>clustered index</em> is allowed per table</li>
+					</ul>
+					<li>Non-Clustered Index</li>
+					<ul>
+						<li class="in">Contains the index key values and row locators that point to the storage location of the data but the physical order of rows is different</li>
+						<li class="in">In MySQL 250 <em>non-clustered</em> indexes are allowed per table</li>
+					</ul>
+				</ol>
+			</p>
+		</article>
+		<div class = 'share'>
+			<a href="https://instagram.com/avisa.sdbi?utm_medium=copy_link"><img src= 'insta_icon.png'></a>
+		</div>
 		<!--<article>
 			<p class = 'debug'>Article2</p>
 		</article>-->
