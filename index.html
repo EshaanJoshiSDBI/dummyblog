@@ -11,8 +11,20 @@
 		<link rel = 'stylesheet' type = 'text/css' href = 'style.css'>
 	</head>
 	<body>
-		<article id='art-1'>
-			<h1><a href = '#art-1'><b>Correlation and Regression</b></a></h1>
+		<header>
+			<nav class = 'navbar'>
+				<ul>
+					<li><a href = 'index.html'>Home</a></li>
+					<li><a href = 'Aboutus.html'>About</a></li>
+					<li><a href = '#contact'>Contact</a></li>
+					<div class = 'search'>
+						<input autocomplete = 'off' type = 'text' onkeyup = 'search()' name = 'search' id = 'search_bar' placeholder="Search this page">
+					</div>
+				</ul>
+			</nav>
+		</header>
+		<article class = 'art' id='art-1'>
+			<h1 class = 'head'><a href = '#art-1'><b>Correlation and Regression</b></a></h1>
 			<p>
 				<time datetime="29-04-2021">Apr. 29, 2021</time>
 				<h3>What is Correlation?</h3>
@@ -64,8 +76,8 @@
 			<img class = 'size-2' src = 'committee.jpg'>
 			<img class = 'size-1' src = 'committee.jpg'>-->
 		</article>
-		<article id='art-2'>
-			<h1><a href = '#art-2'>Indexes in MySQL</a></h1>
+		<article class = 'art' id='art-2'>
+			<h1 class = 'head'><a href = '#art-2'>Indexes in MySQL</a></h1>
 			<p>
 				<time datetime="15-04-2021">Apr. 15 2021</time>
 				<h3>What are Indexes</h3>
@@ -90,11 +102,12 @@
 				</ol>
 			</p>
 		</article>
-		<div class = 'share'>
+		<div  id = 'contact' class = 'share'>
 			<a href="https://instagram.com/avisa.sdbi?utm_medium=copy_link" target="_blank"><img src= 'insta_icon.png'></a>
 		</div>
 		<!--<article>
 			<p class = 'debug'>Article2</p>
 		</article>-->
+		<script src = 'func.js'></script>
 	</body>
 </html>
