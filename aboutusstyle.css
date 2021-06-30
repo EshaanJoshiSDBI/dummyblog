@@ -109,6 +109,7 @@ p{font: 400 1rem/1.5 'Nunito';
 }
 
 li{
+    font: 300 1rem/1.5 'Nunito';
     margin-left: 1.0rem;
 }
 
@@ -137,4 +138,15 @@ u{
     filter: opacity(90%);
     border-radius: 100px;
     padding-bottom: 1rem;
+}
+span p{
+    color: #0073A1;
+}
+
+.share_span{
+    font-size: 0.8rem;
+}
+.share_span h6{
+    font-size: 0.9rem;
+    color: #0073A1;
 }

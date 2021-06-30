@@ -12,3 +12,6 @@ function search(){
         }
     }
 }
+img.ondblclick =  function lcf(){
+
+}
