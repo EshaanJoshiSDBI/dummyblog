@@ -14,24 +14,14 @@
 }*/
 html{
     height: 100%;
-    background: url('logo.jpeg') no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
 }
-/* body{
-    /* width: 100%;
+body{
+    width: 100%;
     background: linear-gradient(to bottom, rgba(177,215,216,1) 48%, rgba(216,200,198,1) 56%, rgba(243,165,162,1) 100%)fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100%; */
-    /* background-image: url("logo.jpeg");
-    background-color: #cccccc;
-    background-position: ;
-    /* background-repeat: no-repeat;
-    background-size: cover;
-}*/
+    height: 100%;
+}
 article{
     display: grid;
     grid-template-columns: 1fr 0.5in [start] 1.25in 5in 1.25in [end] 0.5in 1fr;
