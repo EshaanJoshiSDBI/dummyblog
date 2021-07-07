@@ -32,7 +32,7 @@ html{
     /* background-repeat: no-repeat;
     background-size: cover;
 }*/
-html{
+body{
     background-image:url('Final.png'), linear-gradient(to right, rgba(245,245,220,0.7), rgba(245,245,220,0.7) 100%);
     background-repeat: no-repeat;
     /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */
