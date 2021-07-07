@@ -33,7 +33,7 @@ html{
     background-size: cover;
 }*/
 body{
-    background-image:url('Final.png'), linear-gradient(to right, rgba(245,245,220,0.9), rgba(245,245,220,0.9) 100%);
+    background-image:url('Final.png'), linear-gradient(to right, rgba(245,245,220,1.0), rgba(245,245,220,1.0) 100%);
     background-repeat: no-repeat;
     /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */
     /* filter: brightness(98%); */ 
@@ -175,6 +175,10 @@ li{
     margin-top: 0.001rem;
     margin-left: 1rem;
     justify-content: center;
+}
+
+.share_head u{
+    color: #4b371c;
 }
 
 /*#search_bar{

@@ -122,17 +122,16 @@ time, h2,p {margin-bottom: 1.2rem;}
 /*300,400,600,700,900*/
 h1{font: 700 2rem/1.2 'Nunito';
     font-weight: bold;
-    color: darkred;
+    color: #4b371c;
     padding-bottom: 0.1in;
 }
 
 h2{font: 400 1.5rem/1.2 'Nunito';
     font-weight: bold;
-    color: hsl(000, 0%, 33%);
+    color: #4b371c;
     text-align: center;
     justify-content: center;
     font-weight: bold;
-    color: darkred;
     padding-bottom: 0%;
     margin-bottom: 0.5%;}
 
@@ -144,7 +143,7 @@ time{font: 700 1rem/1.2 'Nunito';
 
 h3{font: 700 1rem/1.2 'Nunito';
     font-weight: bold;
-    color: darkred;
+    color: #4b371c;
 padding-bottom: 0.2in;}
 
 p{font: 400 1rem/1.5 'Nunito';
@@ -202,9 +201,12 @@ span p{
 }
 .share_span h6{
     font-size: 0.9rem;
-    color: darkred;
+    color: #4b371c;
 }
 
+.share_head u{
+    color: #4b371c;
+}
 .wave:hover{
     animation-name: wave-animation;
     animation-duration: 2.5s;
