@@ -33,11 +33,11 @@ html{
     background-size: cover;
 }*/
 body{
-    background-image:linear-gradient(to right, rgba(239, 195, 164,0.8), rgba(239, 195, 164,0.8)), url('Final.png');
+    /* background-image:linear-gradient(to right, rgba(239, 195, 164,0.8), rgba(239, 195, 164,0.8)), url('Final.png');
     background-repeat: no-repeat;
-    /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */
-    /* filter: brightness(98%); */ 
-    /* background-color: ; */
+    linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+    filter: brightness(98%); 
+    background-color: ;
     background-blend-mode: lighten;
     background-position: center center;
     max-height: 100vh;
@@ -46,7 +46,8 @@ body{
     position: relative;
     background-attachment: fixed;
     overflow-y: scroll;
-    overflow-x: scroll;
+    overflow-x: scroll; */
+    background-image: linear-gradient(to right, rgba(239, 195, 164,0.8), rgba(239, 195, 164,0.8));
 }
 article{
     display: grid;
@@ -128,7 +129,7 @@ li{
 }
 
 .navbar{
-    background-color: #9F8170;
+    background-color: #3D2B1F;
     margin: 0.1875rem 0.1875rem;
     border-radius:1.875rem ;
 }
@@ -146,7 +147,7 @@ li{
     text-decoration: none;
 }
 .navbar a:hover{
-    color: #BE7656;
+    color: #EFC3A4;
 }
 .search{
     float: right;
