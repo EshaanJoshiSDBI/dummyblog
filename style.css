@@ -154,6 +154,9 @@ li{
     color: black;
     padding: 0.25rem 2rem;
 }
+#search_bar{
+    width: 11rem;
+}
 .navbar input{
     border: 0.125rem solid black;
     border-radius: 0.4375rem;
