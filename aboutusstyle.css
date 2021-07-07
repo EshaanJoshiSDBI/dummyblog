@@ -2,7 +2,7 @@ h1, h2, h3{
     text-align: center;
 }
 .navbar{
-    background-color: #2D98A5;
+    background-color: #9F8170;
     margin: 0.5875rem 0.5875rem;
     border-radius:0.875rem ;
 }
@@ -63,7 +63,7 @@ html{
     height: 100%;    
 }
 .bg{
-    background-image:url('Final.png'), linear-gradient(to right, rgba(245,245,220,0.7), rgba(245,245,220,0.7) 100%);
+    background-image:url('Final.png'), linear-gradient(to right, rgba(245,245,220,0.9), rgba(245,245,220,0.9) 100%);
     background-repeat: no-repeat;
     /* linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), */
     /* filter: brightness(98%); */ 
@@ -175,7 +175,8 @@ li{
 
 u{
     text-decoration: underline;
-    text-decoration-style: dashed ;
+    text-decoration-style: dashed;
+    color: darkred;
 }
 
 #pic img{
