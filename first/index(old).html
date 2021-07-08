@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset = 'UTF-8'>
+		<meta name = 'viewport' content="width = device-width, initial-scale = 1">
+		<link rel = 'shortcur icon' type = 'image/png' href = 'logo.png'/>
+		<title>AVISA</title>
+		<link rel = 'stylesheet' href = 'reset.css'>
+		<link rel = 'stylesheet' href = '-debug.css'>
+		<link rel = 'stylesheet' href = 'https://fonts.googleapis.com/css?family=Nunito:300,400,600,700,900&display=swap'>
+		<meta name = 'description' content = 'SDBI AVISA blog'>
+		<link rel = 'stylesheet' type = 'text/css' href = 'style(old).css'>
+	</head>
+	<body>
+		<header>
+			<nav class = 'navbar'>
+				<ul>
+					<li><a href = 'index.html'>Home</a></li>
+					<li><a href = 'Aboutus.html'>About</a></li>
+					<li><a href = '#contact'>Contact</a></li>
+					<div class = 'search'>
+						<input autocomplete = 'off' type = 'text' onkeyup = 'search()' name = 'search' id = 'search_bar' placeholder="Search this page">
+					</div>
+				</ul>
+			</nav>
+		</header>
+		<article class = 'art' id='art-1'>
+			<h1 class = 'head'><a href = '#art-1'><b>Correlation and Regression</b></a></h1>
+			<p>
+				<cite>Evernote,</cite>
+				<time datetime="29-04-2021">Apr. 29, 2021</time>
+				<h3>What is Correlation?</h3>
+				<ul>
+					<li>It measures the relative strength of the linear relationship between two variables</li>
+					<li>It is unit-less</li>
+					<li>It ranges between -1 and 1</li>
+					<li>The closer to -1, the stronger the negative linear relationship</li>
+					<li>The closer to 1, the stringer the positive linear relationship</li>
+					<li>The closer to 0, the weaker any positive linear relationship</li>
+					<li>There are two ways to check correlation</li>
+					<ul>
+						<li class="in">Scatter plot</li>
+						<li class = 'in'>Correlation matrix</li>
+					</ul>
+				</ul>
+				</p>
+				<p>
+					<h3>What is R-Squared</h3>
+					<ul>
+						<li>R-Squared is a statistical measure of how close the data are to the fitted regression line.</li>
+						<li>it is also known as the coefficient of determination, or the coefficient of multiple determination for multiple regression.</li>
+						<li>The definition of R-squared is fairly straight-forward, it is the percentage of the response variable variation that is explained by a Independent Variable.</li>
+						<li>R-squared is always between 0 and 100%</li>
+						<ul>
+							<li class='in'>Greater than or equal 70% indicate good model</li>
+						</ul>
+						<li>In general, the higher the R-Squared, the better the model fits your data.</li>
+					</ul>
+				</p>
+				<figure class = 'size-2'>
+					<img src = 'lr.png'>
+				</figure>
+				<figcaption>LR output in python</figcaption>
+				<p>
+					<h3>What is Simple Linear Regression</h3>
+					<ul>
+						<li>A simple linear regression model that <b>describes the relationship between two variables x and y</b> can be expressed by the following equation.</li>
+						<li><figure class = 'size-2'><img src = 'image.png'></figure></li>
+						<li>Assumption of Linear Regression</li>
+						<li class='in'>	Linearity: The relationship between X and the mean of Y is linear</li>
+						<li class = 'in'>Normality: For any fixed of X,Y is normally distributed.</li>
+						<li class = 'in'>Homoscedasticity (constant Variance): The variance of residual is the same for any value of X.</li>
+						<li class = 'in'>Model Error has to be Independently identically Normally Distributed: Observations are independent of each other.</li>
+					</ul>
+				</p>
+			<!--<img class = 'size-4' src = 'committee.jpg'>
+			<img class = 'size-3' src = 'committee.jpg'>
+			<img class = 'size-2' src = 'committee.jpg'>
+			<img class = 'size-1' src = 'committee.jpg'>-->
+		</article>
+		<article class = 'art' id='art-2'>
+			<h1 class = 'head'><a href = '#art-2'>Indexes in MySQL</a></h1>
+			<p>
+				<cite>Evernote note,</cite>
+				<time datetime="15-04-2021">Apr. 15 2021</time>
+				<h3>What are Indexes</h3>
+			</p>
+			<p>
+				It is a data structure associated with a table which enables us to access data quickly. It contains a collection of keys and pointers stored in B-Tree in the memory.
+				It accelerates queries that join tables and perform sorting and grouping. It can be used to enforce uniqueness of rows.
+			</p>
+			<h3>Types of Indexes</h3>
+			<p>
+				<ol>
+					<li>Clustered Index</li>
+					<ul>
+						<li class = 'in'>Sorts and stores the data rows in the table based on their key values</li>
+						<li class="in">In MySQL 1 clustered index is allowed per table</li>
+					</ul>
+					<li>Non-Clustered Index</li>
+					<ul>
+						<li class="in">Contains the index key values and row locators that point to the storage location of the data but the physical order of rows is different</li>
+						<li class="in">In MySQL 250 non-clustered indexes are allowed per table</li>
+					</ul>
+				</ol>
+			</p>
+		</article>
+		<h2 class = 'share_head'><u>CONTACT US</u></h2>
+		<div  id = 'contact' class = 'share'>
+			<span class = 'share_span'>
+				<p>
+					<h6>KHUSHBU LALCHANDANI</h6>
+					President<br>
+					Contact no:<a href = 'tel:9695782726'> 9695782726</a>
+				</p>
+			</span>
+			<span class = 'share_span'>
+				<p>
+					<h6>ARUN NAIR</h6>
+					DIRECTOR<br>Contact no:<a href='tel:8291424977'> 8291424977</a>
+				</p>
+			</span>
+			<span class = 'share_span'>
+				<p>
+					<h6>ISHMEET KAUR MUTTI</h6>
+					General Secretary<br>Contact no:<a href='tel:8879371151'> 8879371151</a>
+				</p>
+			</span>
+		</div>
+		<footer class = 'share'>
+			<a href="https://instagram.com/avisa.sdbi?utm_medium=copy_link" target="_blank"><img src= 'insta.png'></a>
+		<a href="mailto:culturalcommittee@sdbi.in"><img src = 'mail.png'/></a>
+		</footer>
+		<!--<article>
+			<p class = 'debug'>Article2</p>
+		</article>-->
+		<script src = 'func.js'></script>
+	</body>
+</html>

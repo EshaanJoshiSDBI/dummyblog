@@ -16,3 +16,17 @@ function search(){
     }
 //img.ondblclick =  function lcf(){
 }
+
+function search_blog(){
+    let input = document.getElementById('search_bar').value.toLowerCase();
+    let x = document.getElementsByClassName('tag');
+    let y = document.getElementsByClassName('art')
+    for(var i = 0; i < x.length; i++){
+        if(x[i].textContent.toLowerCase().indexOf(input) > -1){
+            y[i].style.display = '';
+        }
+        else{
+            y[i].style.display = 'none';
+        }
+    }
+}
